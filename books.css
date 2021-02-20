@@ -1,0 +1,203 @@
+#main
+{
+height:400px;
+width:1500px;
+border:100px;
+background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),url("../../media/examples/lizard.png");
+animation-name:animt;
+animation-duration:10s;
+animation-delay:1s;
+animation-iteration-count:7;
+animation-direction:alternate;
+}
+#main img
+{
+height:400px;
+width:300px;
+float:left;
+}
+#Main  p
+{
+display:inline-block;
+font-size:30px;
+padding:40px;
+margin-left:30px;
+width:900px;
+left-margin:10px;
+}
+.second
+{
+height:400px;
+width:1500px;
+border:100px;
+background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),url("../../media/examples/lizard.png");
+animation-name:animt;
+animation-duration:6s;
+animation-delay:1s;
+animation-iteration-count:6;
+animation-direction:alternate-reverse;
+}
+.second img
+{
+height:400px;
+width:300px;
+
+float:left;
+}
+.second  p
+{
+display:inline-block;
+font-size:30px;
+padding:40px;
+margin-left:30px;
+width:900px;
+left-margin:10px;
+}
+#third
+{
+height:400px;
+width:1500px;
+border:100px;
+background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),url("../../media/examples/lizard.png");
+animation-name:animt;
+animation-duration:10s;
+animation-delay:1s;
+animation-iteration-count:3;
+animation-direction:alternate;
+}
+#third img
+{
+height:400px;
+width:300px;
+
+float:left;
+}
+
+#third  p
+{
+display:inline-block;
+font-size:30px;
+padding:40px;
+margin-left:30px;
+width:900px;
+left-margin:10px;
+}
+
+#fourth
+{
+height:400px;
+width:1500px;
+border:100px;
+background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),url("../../media/examples/lizard.png");
+animation-name:animt;
+animation-duration:10s;
+animation-delay:1s;
+animation-iteration-count:7;
+animation-direction:alternate-reverse;
+}
+#fourth img
+{
+height:400px;
+width:300px;
+
+float:left;
+}
+#fourth p
+{
+display:inline-block;
+font-size:30px;
+padding:40px;
+margin-left:30px;
+width:900px;
+left-margin:10px;
+}
+#five
+{
+height:400px;
+width:1500px;
+border:100px;
+background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),url("../../media/examples/lizard.png");
+animation-name:animt;
+animation-duration:2s;
+animation-delay:1s;
+animation-iteration-count:7;
+animation-direction:alternate-reverse;
+}
+#fifth img
+{
+height:400px;
+width:300px;
+float:left;
+}
+#five p
+{
+display:flex;
+font-size:30px;
+margin-left:30px;
+display:inline-block;
+width:900px;
+margin-bottom:20px;
+}
+
+p
+{
+
+background-image: linear-gradient(rgba(0, 1, 255, 1), rgba(255, 255, 0, 0.5)),url("C:\Users\my pc\Desktop\HTML CSS\anupam.jpg");
+display:inline;
+padding:10px;
+}
+body
+{
+background-image: linear-gradient(rgba(0, 0, 255, 0.6), rgba(255, 255, 0, 0.5)),url("C:\Users\my pc\Desktop\HTML CSS\anupam.jpg");
+
+}
+header p
+{
+height:50px;
+width:100%;
+padding:20px;
+margin:10px;
+display:inline-block;
+}
+header p a
+{
+font-size:20px;
+color:yellow;
+height:80px;
+width:100%;
+padding:30px;
+margin:10px;
+display:inline;
+}
+header p ol li
+{
+font-size:60px;
+color:yellow;
+}
+h1
+{
+color:yellow;
+height:80px;
+padding:10px;
+margin:10px;
+display:center;
+animation-name:animt;
+<!animation tag>
+}
+body div
+{
+margin-top:40px;
+margin:20px;
+}
+footer
+ {
+    display:flex;
+    justify-content:center;
+	margin-left:10px;
+    padding:50px;
+    background-color:45a1ff;
+    color:fff;
+	font-size:20px;
+	margin-right:10px;
+}
+
