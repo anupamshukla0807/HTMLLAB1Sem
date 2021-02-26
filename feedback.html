@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="feedback.css">
+
+<head>
+<title>FEEDBACK</title>
+<script src="feedback.js"></script>
+<header>
+<div>
+<h1 class="lefty">FEEDBACK</h1>
+</div>
+<div>
+<h1 class="righty">Your thoughts matter</h1>
+</div>
+</header>
+</head>
+<body bgcolor="violet" text="white"  >
+<form>
+<center>
+<section class="first">
+<div id="section1">
+<div class="inputBox-MyLabel" style="display:flex;padding:10px;">
+<label for="fname">First Name</label>
+<input type="text" id="fname" name="fname" placeholder="first name" style=" height:25px;margin-left:82px;"/>
+</div>
+<div class="inputBox-MyLabel" style="display:flex;padding:10px;">
+<label for="mname" >Middle Name</label>
+<input type="text" maxlength="5" id="mname" placeholder="Middle name" style=" height:25px;margin-left:50px;"/>
+</div>
+<div class="inputBox-MyLabel" style="display:flex;padding:10px;">
+<label for="lname">Last Name</label>
+<input type="text" id="lname" placeholder="last name" style=" height:25px;margin-left:85px;"/>
+</div>
+<div class="inputBox-MyLabel" style="display:flex;padding:10px;">
+<label for="lname">Suggestion</label>
+<input type="text" id="suggestion" placeholder="suggestion" style=" height:25px;margin-left:85px;"/>
+</div>
+
+<div class="inputBox-MyLabel" style="display:flex;padding:10px;">
+<label for="gender" >Gender</label>
+
+	<label for="male" style="margin-left:120px;">M</label>
+	<input type="radio" id="gender" value="Mr." onclick="subname()" style="center;margin:10px;" />
+	<label for="female" style="margin-left:50px;">F</label>
+	<input type="radio" id="gender2" value="Ms." onclick="subname()" style="center;margin:10px;" />
+	
+</div>
+
+<div class="inputBox-MyLabel" style="display:flex;padding:10px;">
+<input type="button" id="plus" value="+" onclick="fun()" style="width:55px; height:35px;margin-left:85px;"/>
+<input type="reset" id="minus" value="-"  style="width:55px; height:35px;margin-left:85px;"/>
+</div>
+</div>
+<div id="section2">
+</div>
+</section>
+<section class="second">
+<textarea name="suggestion1" id="print" placeholder="Output display here">
+</textarea>
+</section>
+<footer>
+<h1> &copy Feedback WebPage&copy </h1>
+</footer>
+<button name="Button" id="changetext" style="margin-top:20px;height:60px;" onclick="this.innerHTML='T H A N K Y O U'">W E L C O M E!</button>
+</center>
+</form>
+</body>
+</html>
+   
