@@ -42,9 +42,9 @@ function fun()
 	{
 	var fullname;
 	if(midname.trim()=="null")
-		fullname=val.trim()+" "+firstname.trim()+" "+lastname.trim()+" "+suggest.trim();
+		fullname=val.trim()+" "+firstname.trim()+" "+lastname.trim()+" "+"says-"+"\n"+suggest.trim();
 	else
-		fullname=val.trim()+" "+firstname.trim()+" "+midname.trim()+" "+lastname.trim()+"\n"+suggest.trim();
+		fullname=val.trim()+" "+firstname.trim()+" "+midname.trim()+" "+lastname.trim()+" "+"says-"+"\n"+suggest.trim();
 
 	document.getElementById("print").value=fullname;
 	document.getElementById("print").style.color="Blue";
