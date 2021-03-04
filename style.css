@@ -63,3 +63,17 @@ p li
 {
 color:red;
 }
+.rotate
+ {
+  animation: rotation 9s infinite linear;
+}
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
