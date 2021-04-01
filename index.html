@@ -15,6 +15,11 @@
     margin-top:10px;
     
   }
+  .flex-container
+  {
+    display:flex;
+    flex-direction: row;
+  }
 .button {
   border:2;
   color:white;
@@ -30,7 +35,8 @@
   margin-left:10px;
   left:30px;
   display:inline-block;
-  opacity:0.8;
+  display:flex;
+  opacity:0.9;
 }
 body 
 {
@@ -43,7 +49,7 @@ body
 p
 {
 font-size:40px;
-color:#FF5743;
+color:red;
 text-align:center;
 }
   .select
@@ -56,12 +62,12 @@ text-align:center;
     font-size:40px;
   }
 
-.button1 {background-color:#FF5733 ;} /* #4CAF50 */
+.button1 {background-color:#FF5734 ;} /* #4CAF50 */
 .button2 {background-color:#FF5733 ;} /* #008CBA*/
 </style>
 </head>
 <body style="background-image: url('lab3.jpg');">
-<div id="head">
+<div id="head" class="flex-container">
 <button class="button button1">
 <a href="aboutme.html">ABOUT ME</a>
 </button>
