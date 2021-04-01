@@ -8,6 +8,13 @@
 
 <head>
 <style>
+  #head{
+    height:200px;
+    width:100%;
+    diplay:inline-block;
+    margin-top:10px;
+    
+  }
 .button {
   border:2;
   color:white;
@@ -20,15 +27,14 @@
   cursor: pointer;
   height:200px;
   width:200px;
-  margin-left:100px;
-  margin-top:200px;
+  margin-left:10px;
   display:inline-block;
 }
 body 
 {
   background-image: url('lab3.jpg');
   background-repeat:no-repeat;
-  background-size:100% 100%;
+  background-size:100%;
   height:400px;
   width:1100;
 }
@@ -53,7 +59,7 @@ text-align:center;
 </style>
 </head>
 <body style="background-image: url('lab3.jpg');">
-<p><b>Please Click Which page you want to see.</b></P>
+<div id="head">
 <button class="button button1">
 <a href="aboutme.html">ABOUT ME</a>
 </button>
@@ -69,6 +75,7 @@ text-align:center;
   <button>
    <button class="button button2"><a href="game.pptx">description</a></button>
  </button>
-
+  </div>
+  <p><b>Please Click Which page you want to see.</b></P>
 </body>
 </html>
